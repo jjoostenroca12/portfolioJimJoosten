@@ -213,3 +213,26 @@ p {
     background-color: var(--third-category-color);
     color: var(--third-btn-color);
 }
+
+.testimonial {
+    margin-top: 10%;
+    background-color: var(--header-bg-color);
+    color: var(--main-text-color);
+}
+
+.testimonial-content-container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.testimonial-header {
+    width: 80%;
+    text-align: center;
+    padding: 5% 10% 5%;
+    margin-left: 10%;
+}
+
+.testimonial-header h2 {
+    color: var(--name-text-color);
+    margin-bottom: 2%;
+} 
