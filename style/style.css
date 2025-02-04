@@ -8,6 +8,10 @@
     --started-btn-shadow: rgba(98, 186, 27, 1);
     --first-btn-color: rgba(255, 162, 23, 1);
     --first-category-color: rgba(255, 246, 233, 1);
+    --second-btn-color: rgba(0, 10, 255, 1);
+    --second-category-color: rgba(208, 230, 255, 1);
+    --third-btn-color: rgba(42, 176, 144, 1);
+    --third-category-color: rgba(224, 255, 248, 1);
 }
 
 body, h2, p {
@@ -190,4 +194,22 @@ p {
     background-color: var(--header-nav-bg-color);   
     border-radius: 10px;
     height: 100%;
+}
+
+.case-second-btn button {
+    background-color: var(--second-btn-color);
+}
+
+.case-second-text div:nth-child(1) {
+    background-color: var(--second-category-color);
+    color: var(--second-btn-color);
+}
+
+.case-third-btn button {
+    background-color: var(--third-btn-color);
+}
+
+.case-third-category {
+    background-color: var(--third-category-color);
+    color: var(--third-btn-color);
 }
