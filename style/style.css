@@ -98,6 +98,28 @@ body, h2, p {
 .header-image {
     background-color: var(--header-nav-bg-color);
     height: 100%;
-    width: 45%;
+    width: 40%;
     border-radius: 50%;
+}
+
+.header-company p {
+    margin-left: 5%;
+}
+
+.header-company {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.company-logo-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+
+.company-logo-container div{
+    background-color: var(--header-nav-bg-color);
+    padding: 3rem;
+    margin-top: 2rem;
+    border-radius: 5px;
 }
