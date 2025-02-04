@@ -12,6 +12,14 @@ body, h2, p {
     margin: 0;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
 * {
     box-sizing: border-box;
     font-family: "IBM Plex Mono", var(--system-ui) ;
@@ -122,4 +130,34 @@ body, h2, p {
     padding: 3rem;
     margin-top: 2rem;
     border-radius: 5px;
+}
+
+.case-work-container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.case-text-container {
+    text-align: center;
+    padding: 5% 25% 0;
+}
+
+.case-text {
+    margin-top: 2.5%;
+}
+
+.case-first-work,
+.case-second-work,
+.case-third-work {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.case-first-image,
+.case-second-image,
+.case-third-image {
+    background-color: var(--header-nav-bg-color);   
+    border-radius: 10px;
+    height: 100%;
 }
