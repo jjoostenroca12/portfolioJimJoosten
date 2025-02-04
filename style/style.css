@@ -6,6 +6,8 @@
     --name-text-color: white;
     --started-btn-color: rgba(63, 142, 0, 1);
     --started-btn-shadow: rgba(98, 186, 27, 1);
+    --first-btn-color: rgba(255, 162, 23, 1);
+    --first-category-color: rgba(255, 246, 233, 1);
 }
 
 body, h2, p {
@@ -152,6 +154,34 @@ p {
     display: grid;
     gap: 5rem;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 10%;
+}
+
+.work-text {
+    margin-top: 5%;
+}
+
+.work-text button {
+    padding: 2% 10%;
+    border-radius: 5px;
+    border: none;
+    color: var(--name-text-color);   
+}
+
+.case-first-btn button{
+    background-color: var(--first-btn-color);;
+}
+
+.category-text {
+    width: max-content;
+    display: flex;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.case-first-text div:first-child {
+    background-color: var(--first-category-color);
+    color: var(--first-btn-color);
 }
 
 .case-first-image,
