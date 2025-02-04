@@ -236,3 +236,36 @@ p {
     color: var(--name-text-color);
     margin-bottom: 2%;
 } 
+
+.testimonial-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.testimonial-container {
+    border: 1px solid var(--main-text-color);
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.testi-info {
+    display: grid;
+    grid-template-columns: 0.25fr 3fr;
+    gap: 2rem;
+    margin-top: 5%;
+}
+
+.testi-profile {
+    background-color: var(--header-nav-bg-color);
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.testi-name {
+    display: grid;
+    align-items: center;
+    color: var(--name-text-color);
+    font-weight: bold;
+}
