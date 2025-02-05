@@ -223,6 +223,7 @@ p {
 .testimonial-content-container {
     width: 80%;
     margin-left: 10%;
+    padding-bottom: 5%;
 }
 
 .testimonial-header {
