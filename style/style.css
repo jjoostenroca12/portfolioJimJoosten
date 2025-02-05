@@ -297,3 +297,25 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.recent-image {
+    padding: 12rem;
+    border-radius: 5px;
+    background-color: var(--header-nav-bg-color);
+}
+
+.recent-image,
+.recent-text div {
+    margin-bottom: 5%;
+}
+
+.recent-btn button{
+    border: none;
+    background-color: var(--started-btn-color);
+    color: var(--name-text-color);
+    padding: 2% 8%;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 5px 20px 0px var(--started-btn-shadow);
+}
+
