@@ -270,3 +270,30 @@ p {
     color: var(--name-text-color);
     font-weight: bold;
 }
+
+.recent-header {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.recent-header h2 {
+    margin-bottom: 3%;
+}
+
+.recent-main {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(2, 2fr) 0.5fr;
+}
+
+.middle-margin {
+    padding-right: 5%;
+}
+
+.left-arrow,
+.right-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
