@@ -273,7 +273,7 @@
             />
           </svg>
         </div>
-        <div class="recent-work-container gmiddle-margin">
+        <div class="recent-work-container middle-margin">
           <div class="recent-image-container">
             <div class="recent-image"></div>
           </div>
@@ -345,7 +345,37 @@
       </div>
       <div class="contact-main">
         <form action="" method="get">
-          <div class="email-container"></div>
+          <div class="email-container">
+            <label for="email-input">Email</label>
+            <input
+              type="email"
+              id="email-input"
+              name="email"
+              placeholder="Please enter your email"
+            />
+          </div>
+          <div class="phone-container">
+            <label for="phone-input">Phone</label>
+            <input
+              type="tel"
+              id="phone-input"
+              name="phone"
+              placeholder="Enter phone number"
+            />
+          </div>
+          <div class="message-container">
+            <label for="message-input">Message</label>
+            <textarea
+              name="message"
+              id="message-input"
+              cols="30"
+              rows="5"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <div class="form-submit">
+            <button>Submit ></button>
+          </div>
         </form>
       </div>
     </div>
