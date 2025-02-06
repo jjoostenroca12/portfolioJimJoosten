@@ -343,4 +343,30 @@ p {
 
 label {
   display: block;
+  color: var(--name-text-color);
+}
+
+.contact-main {
+  margin-left: 38%;
+}
+
+input {
+  margin-bottom: 2%;
+}
+
+textarea,
+input,
+.form-submit button {
+  width: 40%;
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
+.form-submit button {
+  background-color: var(--started-btn-color);
+  color: var(--name-text-color);
+  border: none;
+  padding: 1rem 3rem;
+  margin-top: 2%;
+  box-shadow: 0px 5px 5px 0px var(--started-btn-shadow);
 }
