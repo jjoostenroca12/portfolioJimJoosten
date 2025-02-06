@@ -320,3 +320,27 @@ p {
   font-weight: bold;
   box-shadow: 0px 5px 20px 0px var(--started-btn-shadow);
 }
+
+.contact {
+  background-color: var(--header-bg-color);
+  margin-top: 5%;
+}
+
+.contact-header {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  padding: 8% 5% 5%;
+}
+
+.contact-header h2 {
+  color: var(--name-text-color);
+}
+
+.contact-header p {
+  color: var(--main-text-color);
+}
+
+label {
+  display: block;
+}
